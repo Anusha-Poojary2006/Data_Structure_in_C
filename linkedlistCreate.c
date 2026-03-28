@@ -4,10 +4,10 @@
 typedef struct node{
     int data;
     struct node* next;
-}node;
+}Node;
 
-node* create(int data){
-    node* newNode=(node*)malloc(sizeof(node));
+Node* create(int data){
+    Node* newNode=(Node*)malloc(sizeof(Node));
     if(newNode==NULL){
         printf("Memory is not allocated");
         return NULL;
@@ -19,5 +19,5 @@ node* create(int data){
 }
 
 int main(){
-    node* temp=create(10);
+    Node* temp=create(10);
 }
