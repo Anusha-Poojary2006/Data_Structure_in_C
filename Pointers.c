@@ -1,3 +1,5 @@
+// Simple C program for pointer
+
 #include<stdio.h>
 void update(int *val){
     *val=*val*2;
