@@ -1,3 +1,5 @@
+//  A simple C program for malloc function
+
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
