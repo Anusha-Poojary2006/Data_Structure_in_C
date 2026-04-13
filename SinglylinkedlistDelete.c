@@ -199,4 +199,5 @@ int main(){
     printList(head);
     deleteValue(&head,300);
     printList(head);
+    return 0;
 }
