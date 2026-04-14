@@ -227,7 +227,7 @@ int main(){
                 break;
             }
             case 6:{
-                printf("Enter a position to insert:");
+                printf("Enter a position to delete:");
                 scanf("%d",&position);
                 deleteAtPosition(&head,position);
                 break;
